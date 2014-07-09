@@ -238,6 +238,9 @@ ul {
   color:#CC0000;
   font-weight: 500;
 }
+img{
+  margin:1em;
+}
 /** Larger Screens - desktops and tablets **/
  @media all and (min-device-width: 1200px) {
     .app-bar {
