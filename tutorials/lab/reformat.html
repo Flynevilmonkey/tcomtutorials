@@ -1,0 +1,133 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+    <title>TCOM Tutorials</title>
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="196x196" href="../../images/touch/chrome-touch-icon-196x196.png">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Web Starter Kit">
+
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="../../images/touch/ms-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileColor" content="#3372DF">
+
+    <!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
+    <!--
+    <link rel="canonical" href="http://www.example.com/">
+    -->
+
+    <!-- build:css styles/components/main.min.css -->
+    <link rel="stylesheet" href="../../styles/h5bp.css">
+    <link rel="stylesheet" href="../../styles/components/components.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <!-- endbuild -->
+</head>
+
+<body>
+    <header class="app-bar promote-layer">
+        <div class="app-bar-container">
+            <button class="menu">
+                <img src="../../images/hamburger.svg" alt="Menu">
+            </button>
+            <a href="../../index.html">
+                <h1 class="logo">TCOM Tutorials</h1>
+            </a>
+            <section class="app-bar-actions">
+                <!-- Put App Bar Buttons Here -->
+            </section>
+        </div>
+    </header>
+
+    <nav class="navdrawer-container promote-layer">
+        <h4>Navigation</h4>
+        <ul>
+            <li><a href="../../index.html">Home</a>
+            </li>
+            <li><a href="../../audio.html">Audio</a>
+            </li>
+            <li><a href="../../video.html">Video</a>
+            </li>
+            <li><a href="../../web.html">Web</a>
+            </li>
+            <li><a href="../../lab.html">Lab</a>
+            </li>
+            <li><a href="../../checkout.html">Checkout</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <div id="text" class="xlarge">Reformating a Hard Drive for Mac
+            <a href="../../documents/checkout/SONYHXR-NX5U.pdf" download="">
+                <div id="download" class="large">
+                    <span class="icon-circle"><i class="icon icon-lessons"></i></span>
+                </div>
+            </a>
+            <br>
+        </div>
+        <div id="text" class="medium">
+            <ol>
+                <li>Backup all data on your external hard drive. ALL DATA WILL BE ERASED.</li>
+                <li>Open the DIsk Utility app in the Utilities folder inside the Applications folder.</li>
+                <li>Make sure your external drive is plugged in and powered on. It will show up in the left panel of the Disk Utility app.</li>
+                <li>Click on your dive. Then, click on the Partition tab in the upper middle of the app.</li>
+                <li>Under “Partition Layout:” is a drop-down menu. Click on that and choose however many partitions you want.</li>
+                <ul>
+                    <li>Different partitions can be formatted for different operating systems.</li>
+                    <li>If you would like a Windows partition, choose more than one in the Partition Layout. drop-down and format one of the partitions as “ExFat.”</li>
+                </ul>
+                <li>To the right, give your partition(s) a name.</li>
+                <li>Under that is another drop-down menu where you can choose the format. Pick “Mac OS Extended (Journaled).”</li>
+                <li>Choose a size for your partition(s) just below that. You can type in a size in the text box or grab the box to the left with your mouse and drag to the desired size.</li>
+                <li>If everything is set, click on Apply.</li>
+                <li>A dialog box will come up, explaining what you are about to do, and ask if you are sure. If you are, go ahead and click on Partition.</li>
+                <li>If you are doing this on a lab computer you may need admininstrative privileges to complete step 10. If that is the case, please see the lab technician in BC 194G.</li>
+            </ol>
+            <br>
+            <br>Some things to be mindful of:
+            <br>
+            <br>Right click (Control+click) on your drive on the desktop. Choose Get Info. It will tell you what format your drive currently is.
+            <br>
+            <br>NTFS is read-only on Mac computers. You will NOT be able to write any data to your hard drive if it is formated as NTFS.
+            <br>
+            <br>If your drive is MS-DOS (FAT), you may be able to read and write to it, but there are limitations. 4 GB is the maximum size single file you can transfer.
+            <br>
+            <br>Exfat is the most compatible Windows format on a Mac computer. It can read and written to using a Mac.
+
+        </div>
+    </main>
+
+    <!-- build:js scripts/main.min.js -->
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
+    <script>
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-XXXXX-X');
+    ga('send', 'pageview');
+    </script>
+    <!-- Built with love using Web Starter Kit -->
+</body>
+
+</html>

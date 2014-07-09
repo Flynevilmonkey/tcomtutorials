@@ -1,0 +1,173 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+    <title>TCOM Tutorials</title>
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="196x196" href="../../images/touch/chrome-touch-icon-196x196.png">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Web Starter Kit">
+
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="../../images/touch/ms-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileColor" content="#3372DF">
+
+    <!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
+    <!--
+    <link rel="canonical" href="http://www.example.com/">
+    -->
+
+    <!-- build:css styles/components/main.min.css -->
+    <link rel="stylesheet" href="../../styles/h5bp.css">
+    <link rel="stylesheet" href="../../styles/components/components.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <!-- endbuild -->
+</head>
+
+<body>
+    <header class="app-bar promote-layer">
+        <div class="app-bar-container">
+            <button class="menu">
+                <img src="../../images/hamburger.svg" alt="Menu">
+            </button>
+            <a href="../../index.html">
+                <h1 class="logo">TCOM Tutorials</h1>
+            </a>
+            <section class="app-bar-actions">
+                <!-- Put App Bar Buttons Here -->
+            </section>
+        </div>
+    </header>
+
+    <nav class="navdrawer-container promote-layer">
+        <h4>Navigation</h4>
+        <ul>
+            <li><a href="../../index.html">Home</a>
+            </li>
+            <li><a href="../../audio.html">Audio</a>
+            </li>
+            <li><a href="../../video.html">Video</a>
+            </li>
+            <li><a href="../../web.html">Web</a>
+            </li>
+            <li><a href="../../lab.html">Lab</a>
+            </li>
+            <li><a href="../../checkout.html">Checkout</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <div id="text" class="xlarge">5.1 Music to DVD
+            <a href="documents/audio/51toDVD.pdf" download="">
+                <div id="download" class="large">
+                    <span class="icon-circle"><i class="icon icon-lessons"></i>
+                    </span>
+                </div>
+            </a>
+            <br>
+        </div>
+        <div id="text" class="medium">You need to be in a LB Edit Suite
+            <br>
+            <br>A. Bounce your surround mix out of Pro Tools
+            <ol>
+                <li>File> bounce to disk</li>
+                <li>Change settings.</li>
+                <img src="../../images/audio/51/bounce.jpg">
+                <li>Convert after bounce</li>
+                <li>Save</li>
+            </ol>
+            <br>B. Creating an AC-3 File
+            <ol>
+                <li>Create a new Pro Tools session. 24 Bit Depth. 48k Sample Rate.</li>
+                <li>Import your six stems from the last step.</li>
+                <img src="../../images/audio/51/import.jpg">
+                <li>Click Add. Click Done.</li>
+                <li>Click New Track and Session Start. Click OK.</li>
+                <li>Select the audio in the timeline</li>
+                <li>Audio Suite> Sound Field> SoundCode Dolby Digital Encode</li>
+                <img src="../../images/audio/51/encode.jpg">
+                <li>Set the Dolby Digital encoding parameters. Use settings below.</li>
+                <br>
+                <li>Set the output file name.</li>
+                <li>Click on the “Encode” button.</li>
+            </ol>
+            <br>
+            <br>C. Photoshop
+            <ol>
+                <li>File> new> use settings below</li>
+                <img src="../../images/audio/51/size.jpg">
+                <li>Click OK.</li>
+                <li>On the toolbar, click on the “T” for text tool</li>
+                <li>Click and drag on your work area to create a textbox</li>
+                <li>Add your name, band name, and song name</li>
+                <li>Format text and background however you like.</li>
+                <li>When you are finished making your slate go to File> Save As</li>
+                <li>Save the file. Format: JPEG. Click Save.</li>
+                <li>Hit OK.</li>
+            </ol>
+            <br>
+            <br>D. Encore
+            <ol>
+                <li>Click New Project</li>
+                <li>Name your project and choose the save location. The rest stays the same. Press OK.</li>
+                <li>Menu> New Menu</li>
+                <img src="../../images/audio/51/51menu.jpg">
+                <li>File> Import As> Asset. Select your files (.ac3 and .jpg)</li>
+                <li>On the toolbar, click on the “T” for text tool</li>
+                <li>On the Menu, create a title for the DVD.</li>
+                <li>Create a second text line for the title of your song</li>
+                <li>On the toolbar, choose the Direct Select Tool and select your song title. Object> Convert to button.</li>
+                <li>Timeline> New Timeline</li>
+                <li>Move the .ac3 and .jpg to the timeline</li>
+                <img src="../../images/audio/51/timeline.jpg">
+                <li>Click on the Timeline you created in the Project Pane. In the Properties Pane, change the end action of the timeline to the Menu> Default</li>
+                <li>In the Project Pane double click on the Menu you created. Select the button and in the Properties Pane, change the Link to the Timeline> Chapter 1</li>
+                <img src="../../images/audio/51/button.jpg">
+                <li>Repeat steps 7-12 for each song.</li>
+                <li>Press the Preview button in the toolbar. And test the DVD. Exit here.</li>
+                <img src="../../images/audio/51/build.jpg">
+                <li>Click on the build tab</li>
+                <li>Change the Format to DVD and Output to DVD Disc</li>
+                <li>Name the DVD sdfsafa</li>
+                <li>Insert the DVD</li>
+                <li>Build</li>
+            </ol>
+            <br>
+            <br>Test in DVD Player
+        </div>
+    </main>
+
+    <!-- build:js scripts/main.min.js -->
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
+    <script>
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-XXXXX-X');
+    ga('send', 'pageview');
+    </script>
+    <!-- Built with love using Web Starter Kit -->
+</body>
+
+</html>
