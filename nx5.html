@@ -4,36 +4,42 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
+    <meta name="description" content="Ball State TCOM Tutorials">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
     <title>TCOM Tutorials - NX5</title>
 
-    <!-- Chrome on Android -->
+    <!-- Add to homescreen for Chrome on Android -->
     <meta name="mobile-web-app-capable" content="yes">
-    <link rel="icon" sizes="196x196" href="../../images/touch/chrome-touch-icon-196x196.png">
+    <link rel="icon" sizes="196x196" href="images/touch/chrome-touch-icon-196x196.png">
 
-    <!-- Safari on iOS -->
+    <!-- Add to homescreen for Safari on iOS -->
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="apple-mobile-web-app-title" content="Web Starter Kit">
 
-    <!-- Win8 (144x144 + tile color) -->
-    <meta name="msapplication-TileImage" content="../../images/touch/ms-touch-icon-144x144-precomposed.png">
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
     <meta name="msapplication-TileColor" content="#3372DF">
 
-    <link rel="stylesheet" href="../../styles/h5bp.css">
-    <link rel="stylesheet" href="../../styles/components/components.css">
-    <link rel="stylesheet" href="../../styles/main.css">
+    <!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
+    <!--
+    <link rel="canonical" href="http://www.example.com/">
+    -->
 
+    <!-- build:css styles/components/main.min.css -->
+    <link rel="stylesheet" href="styles/h5bp.css">
+    <link rel="stylesheet" href="styles/components/components.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
 </head>
 
 <body>
     <header class="app-bar promote-layer">
         <div class="app-bar-container">
             <button class="menu">
-                <img src="../../images/hamburger.svg" alt="Menu">
+                <img src="images/hamburger.svg" alt="Menu">
             </button>
-            <a href="../../index.html">
+            <a href="index.html">
                 <h1 class="logo">TCOM Tutorials</h1>
             </a>
             <section class="app-bar-actions">
@@ -45,24 +51,24 @@
     <nav class="navdrawer-container promote-layer">
         <h4>Navigation</h4>
         <ul>
-            <li><a href="../../index.html">Home</a>
+            <li><a href="index.html">Home</a>
             </li>
-            <li><a href="../../audio.html">Audio</a>
+            <li><a href="audio.html">Audio</a>
             </li>
-            <li><a href="../../video.html">Video</a>
+            <!--<li><a href="video.html">Video</a>
             </li>
-            <li><a href="../../web.html">Web</a>
+            <li><a href="web.html">Web</a>
+            </li>-->
+            <li><a href="lab.html">Lab</a>
             </li>
-            <li><a href="../../lab.html">Lab</a>
-            </li>
-            <li><a href="../../checkout.html">Checkout</a>
+            <li><a href="checkout.html">Checkout</a>
             </li>
         </ul>
     </nav>
 
     <main>
         <h1 id="text" class="xlarge">SONY HXR-NX5U - BASICS
-            <a href="../../documents/checkout/SONYHXR-NX5U.pdf" download="NX-5 Tutorial">
+            <a href="documents/checkout/SONYHXR-NX5U.pdf" download="NX-5 Tutorial">
                 <div id="download" class="large">
                     <span id="downloadbutton" class="icon-circle"><i class="icon icon-lessons"></i>
                     </span>
@@ -77,12 +83,12 @@
             <p>ZOOM</p>
             <p>IRIS</p>
             <p>
-                <img src="../../images/checkout/nx5/ringback.jpg">
+                <img src="images/checkout/nx5/ringback.jpg">
             </p>
             <p>2. ND (Neutral Density Filter)</p>
             <p>To adjust/compensate for very bright situations, especially outdoors, use the ND FILTER (1,2,3) as needed. ND filters are like sunglasses for the camera. Even in bright sunlight, try to keep your f/ stop (f/#) at f/8 or less. Set the ND FILTER with the switch on L-side of camera.</p>
             <p>
-                <img src="../../images/checkout/nx5/nd.jpg">
+                <img src="images/checkout/nx5/nd.jpg">
             </p>
             <p>OFF = no filter – probably best for most indoor situations</p>
             <p>ND #1 = 1/4 (2 f/stops less light)</p>
@@ -91,40 +97,40 @@
             <p>3. ZEBRA</p>
             <p>Turn ZEBRA ON/OFF with button on L-side – ZEBRA/ASSIGN 4. (Zebra = a stripe pattern for exposure assist) Suggested levels: 100 = maximum brightness. Other good options: 70 = avg. caucasian skin tone, 90 = near maximum brightness. MENU → DISPLAY SET → ZEBRA → LEVEL → 70-100+</p>
             <p>
-                <img src="../../images/checkout/nx5/zebrabutton.jpg">
-                <img src="../../images/checkout/nx5/zebrascreen.jpg">
+                <img src="images/checkout/nx5/zebrabutton.jpg">
+                <img src="images/checkout/nx5/zebrascreen.jpg">
             </p>
             <p>The zebra default is 70, meaning the brightness is 70% maximum brightness before overexposure (and loss of detail) occurs. Depending on the amount of white or bright areas of your shot, a majority of your image may have the zebra pattern with this setting. This is fine. Generally, if the most important (relevant) bright features of your shot have the zebra pattern at 70, your exposure is probably okay. If you press the zebra button and you do not have the zebra pattern, you may be overexposed or underexposed in those areas. After setting your iris, you can press the zebra button again to remove the pattern from the LCD. The zebra pattern never records to your media.</p>
             <p>4. AE SHIFT</p>
             <p>We use the manual mode for setting our IRIS, GAIN, SHUTTER SPEED and WHITE BALANCE. In manual mode, the AE (automatic exposure) Shift button is not used.</p>
             <p>
-                <img src="../../images/checkout/nx5/automanuel.jpg">
+                <img src="images/checkout/nx5/automanuel.jpg">
             </p>
             <p>5. VISUAL INDEX</p>
             <p>The visual index can be used to quickly review the footage you have shot. Use the SEL/PUSH EXEC dial to navigate the visual index. Push the VISUAL INDEX button again to exit this mode.</p>
             <p>6. The ASSIGN Buttons are not used by default - see the OTHER SETTINGS below for suggestions</p>
             <p>
-                <img src="../../images/checkout/nx5/assign.jpg">
+                <img src="images/checkout/nx5/assign.jpg">
             </p>
             <p>7. FOCUS</p>
             </p>
             <p>Set to MAN (Manual) position</p>
             <p>Note: You can press the PUSH AUTO button while in Manual Focus to do a quick AUTO FOCUS</p>
             <p>
-                <img src="../../images/checkout/nx5/focusautoman.jpg">
+                <img src="images/checkout/nx5/focusautoman.jpg">
             </p>
             <p>8. IRIS - Press IRIS button on L-side for momentary Auto and change between Auto/Manual. You should see F# in display when set to Manual. Adjust with Iris Ring (smallest, rear most ring) on lens.</p>
             <p>
-                <img src="../../images/checkout/nx5/irisbutton.jpg">
-                <img src="../../images/checkout/nx5/irisscreen.jpg">
+                <img src="images/checkout/nx5/irisbutton.jpg">
+                <img src="images/checkout/nx5/irisscreen.jpg">
             </p>
             <p>9. GAIN - pressing this button displays the gain level in the LCD - The switch below the GAIN button adjusts the GAIN level</p>
             <p>L is 0dB default</p>
             <p>M is 9dB default</p>
             <p>H is 18dB default</p>
             <p>
-                <img src="../../images/checkout/nx5/gainbutton.jpg">
-                <img src="../../images/checkout/nx5/gainscreen.jpg">
+                <img src="images/checkout/nx5/gainbutton.jpg">
+                <img src="images/checkout/nx5/gainscreen.jpg">
             </p>
             <p>Set/adjust Gain. Press GAIN button to switch between Auto/Manual, and adjust level w/ L-M-H switch (normally, set dB as low as you can). To change L-M-H settings, MENU → CAMERA SET → GAIN SET.</p>
 
@@ -132,20 +138,20 @@
             <p>Set/adjust WHITE BALANCE w/ switch on L-side (PRESET – A – B).</p>
             <p>To adjust White Balance manually, use A – B switch and press button below the “manual” icon. A - setting A can be used to white balance manually. Fill the frame with a well-exposed (but not overexposed) white object or paper. Then press and hold the manual white balance button until the icon stops blinking in the LCD.</p>
             <p>
-                <img src="../../images/checkout/nx5/wbbutton.jpg">
-                <img src="../../images/checkout/nx5/wbscreen.jpg">
+                <img src="images/checkout/nx5/wbbutton.jpg">
+                <img src="images/checkout/nx5/wbscreen.jpg">
             </p>
             <p>B - an additional setting you can use just like setting A</p>
             <p>PRESET can be set for either INDOORS, OUTDOORS or MAN WB TEMP according to your shooting conditions. MENU → CAMERA SET → WB PRESET → INDOORS/OUTDOORS/ MAN WB TEMP.</p>
             <p>11. SHUTTER SPEED - double your frame rate to calculate a good approximate starting point at HD 1080/24p FX, start at a shutter of 48</p>
             at HD 720/60p FX, start at a shutter of 125
             <p>
-                <img src="../../images/checkout/nx5/ssbutton.jpg">
-                <img src="../../images/checkout/nx5/ssscreen.jpg">
+                <img src="images/checkout/nx5/ssbutton.jpg">
+                <img src="images/checkout/nx5/ssscreen.jpg">
             </p>
             <p>Set/adjust SHUTTER SPEED. Press SHUTTER SPEED button. When highlighted, adjust w/ thumb wheel/SEL/PUSH EXEC until appropriate setting, then press EXEC to lock (not highlighted). Set to 48 (1/48 sec.) for 1080/24p FX. If Shutter Speed is shown in degrees, you can change the display. Lower shutter speeds = more blur, higher speeds = sharper, less motion blur.</p>
             <p>
-                <img src="../../images/checkout/nx5/buttons.jpg">
+                <img src="images/checkout/nx5/buttons.jpg">
             </p>
             <p>12. MENU - press to access the menu functions - use the SEL/PUSH EXEC dial, and the forward/back arrows to navigate the menu</p>
             <p>13. MODE - changes from CAMERA, PLAY, EDIT, DUB/COPY and MANAGE MEDIA modes. You will mainly use CAMERA and PLAY (for playback). MANAGE MEDIA can be used to reformat the SD card.</p>
@@ -167,44 +173,44 @@
             <p>1. Set up tripod and level head, mount camera on tripod.</p>
             <p>Put battery on camera – on back of camera. To remove battery: BATT RELEASE button on Back</p>
             <p>
-                <img src="../../images/checkout/nx5/batteryrelease.jpg">
+                <img src="images/checkout/nx5/batteryrelease.jpg">
             </p>
             <p>2. Insert SDHC memory card. Open the cover on back L-side and insert card(s) w/ notched corner facing down. To eject the memory card, push-in on card and remove from slot. (When finished shooting, it’s recommended that you write protect your cards to prevent accidental erasure until the data has been successfully transferred,backed-up, and verified.)</p>
             <p>
-                <img src="../../images/checkout/nx5/sdcard.jpg">
+                <img src="images/checkout/nx5/sdcard.jpg">
             </p>
             <p>3. POWER – ON/OFF – on R-side, push and hold green button, turn knob to ON (turn OFF for battery change).</p>
             <p>
-                <img src="../../images/checkout/nx5/power.jpg">
+                <img src="images/checkout/nx5/power.jpg">
             </p>
             <p>4. Open LCD screen on top of camera or look in viewfinder (viewfinder will turn off when LCD is open if set to AUTO in MENU). Remember to close the LCD, with the LCD screen inward, to avoid damaging the screen, when you are not using the camera, and before you pack the camera.</p>
             <p>5. Do a full RESET, using a paper clip. Do NOT use a pen or anything that leaves a mark. Resetting will erase/reset all settings left from the previous user so you don't overlook some errant setting. Resetting will restore factory settings (except Picture Profile settings which will need to be reset separately) and you can then make changes as needed/wanted. ALSO RESET BEFORE RETURNING CAMERA</p>
             <p>
-                <img src="../../images/checkout/nx5/reset.jpg">
+                <img src="images/checkout/nx5/reset.jpg">
             </p>
             <p>6. To access the MENU, press the MENU button on L-side or top panel. To navigate through the menus, use the EXEC thumb-wheel and buttons on L-side, or the navigation buttons on top panel.</p>
             <p>
-                <img src="../../images/checkout/nx5/menu.jpg">
+                <img src="images/checkout/nx5/menu.jpg">
             </p>
             <p>7. Format the media card (erase ALL data and recover all recordable space). MODE → MANAGE MEDIA → MEDIA FORMAT → [YES] → OK.</p>
             <p>8. Open lens hood shutter (lens cover) w/ L-side lever. Close lens cover before returning the camera to the case.</p>
             <p>
-                <img src="../../images/checkout/nx5/shutter.jpg">
+                <img src="images/checkout/nx5/shutter.jpg">
             </p>
             <p>9. Check lens for dust, smudges, etc. and clean if necessary – bulb syringe and/or microfiber cloth only.</p>
             <p>10. Zoom control/rocker is on R-side hand grip (W=wide/T=telephoto). Additional zoom control on top, at front of handle.</p>
             <p>
-                <img src="../../images/checkout/nx5/zoom.jpg">
+                <img src="images/checkout/nx5/zoom.jpg">
             </p>
             <p>11. RECORD (REC) START/STOP buttons are in 2 places – the RED button on the R-side hand grip POWER ON/OFF switch and on the top, at the front of the handle.</p>
             <p>
-                <img src="../../images/checkout/nx5/power.jpg">
+                <img src="images/checkout/nx5/power.jpg">
             </p>
             <p>12. Set viewfinder (VF) eye-piece focus to your eye (with LCD closed). Opening the LCD will turn-off the viewfinder (default = VF POWERMODE → AUTO) unless changed. Setting to ON will allow you to use both VF and LCD without closing the LCD. MENU → DISPLAY SET → VF POWERMODE.</p>
             <p>13. Make sure your VF, LCD and monitor are properly adjusted (brightness and contrast), to gauge accurate exposure. Adjust LCD/Viewfinder brightness (using >CAMERA SET >Color Bars, Type 1, for reference). MENU → DISPLAY SET → LCD BRIGHT AND LCD COLOR</p>
             <p>14. Keep most of the operating controls - focus, iris, gain, white balance, shutter speed - on Manual (Auto mode –Off). Set AUTO-MANUAL switch to MANUAL (L-side of camera). When set to MANUAL, you should see icons for all of these values in the viewfinder/LCD. You can turn these individual functions On/Off using the buttons on the left side of the camera.</p>
             <p>
-                <img src="../../images/checkout/nx5/automanuel.jpg">
+                <img src="images/checkout/nx5/automanuel.jpg">
             </p>
             <p>ADDITIONAL SETTINGS:</p>
             <p>1. You can assign or change various ASSIGN buttons per operator preference if desired.</p>
@@ -224,21 +230,21 @@
             <p>MENU → TC/UB SET → TC PRESET → RESET → EXEC → PRESET → change Hour to match Roll # (e.g. Roll 1 =Hour 1 = 01:00:00:00) → EXEC (x 4) → OK. Then, set TC RUN → REC RUN and TC MAKE → PRESET</p>
             <p>7. You can create various custom “looks” with PICTURE PROFILE. These are NOT reset when you do a system reset! To return to default settings, each one of the profiles must be individually reset. Good lighting and proper exposure are more important than special camera settings. You can do post-production color correction rather than messing too much with the various PICTURE PROFILE Menu settings, such as Gamma, Color Modes and Levels, etc.</p>
             <p>AUDIO SETTINGS:</p>
-            <img src="../../images/checkout/nx5/audio.jpg">
+            <img src="images/checkout/nx5/audio.jpg">
             </p>
             <p>There are two audio channels. CH1 can be assigned to the INT MIC (internal microphone) or INPUT 1. CH2 can be assigned to the INT MIC, INPUT 1 or INPUT 2.</p>
             <p>In most instances, the audio mode should be set to MAN (manual) and levels adjusted with the numbered dial.</p>
-            <img src="../../images/checkout/nx5/audiolevels.jpg">
+            <img src="images/checkout/nx5/audiolevels.jpg">
             </p>
             <p>If you are only using 1 microphone, a ‘safety’ track can be recorded by selecting INPUT 1 for both inputs. The audio level for one channel can be dialed lower to prevent clipping (distortion) in the event of an unexpected loud audio source.</p>
             <p>The level meter can be found on the LCD screen.</p>
             <p>When needed, phantom power (MIC +48V) can be activated with the switches behind the XLR jacks. Be sure to turn OFF phantom power (MIC +48V) before plugging in your microphone(s).</p>
             <p>
-                <img src="../../images/checkout/nx5/phantom.jpg">
+                <img src="images/checkout/nx5/phantom.jpg">
             </p>
             <p>The headphone jack and HEADPHONE MONITOR switch can be found at the rear of the camera handle.</p>
             <p>
-                <img src="../../images/checkout/nx5/headphone.jpg">
+                <img src="images/checkout/nx5/headphone.jpg">
             </p>
         </article>
     </main>
