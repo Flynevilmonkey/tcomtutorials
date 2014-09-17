@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Ball State TCOM Tutorials">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
-    <title>TCOM Tutorials - Rip DVD</title>
+    <title>TCOM Tutorials - Cinema to DVD</title>
 
     <!-- Add to homescreen for Chrome on Android -->
     <meta name="mobile-web-app-capable" content="yes">
@@ -43,7 +43,9 @@
                 <h1 class="logo">TCOM Tutorials</h1>
             </a>
             <section class="app-bar-actions">
-                <!-- Put App Bar Buttons Here -->
+                <a href="http://www.welovetcom.com">
+                    <img src="images/tcomlogo.png">
+                </a>
             </section>
         </div>
     </header>
@@ -64,23 +66,21 @@
             <li><a href="checkout.html">Checkout</a>
             </li>
         </ul>
+    </nav>
 
     <main>
         <h1 id="text" class="xlarge">Rip a Scene from a DVD
             <a href="documents/audio/RippingDVD.pdf" download="">
-                <div id="download" class="large">
-                    <span id="downloadbutton" class="icon-circle"><i class="icon icon-lessons"></i></span>
-                </div>
+                <div class="downloadbutton">Download</div>
             </a>
-            <br>
         </h1>
         <article id="text" class="medium">
-            <p><h3>A. Insert DVD</h3>
+            <h3>A. Insert DVD</h3>
             <ul>
                 <li>Figure out the scene number(s) you need</li>
-            </ul></p>
-            <p><h3>B. Quit DVD Player</h3></p>
-            <p><h3>C. Ripping the DVD</h3>
+            </ul>
+            <h3>B. Quit DVD Player</h3>
+            <h3>C. Ripping the DVD</h3>
             <ol>
                 <li>Open Handbrake</li>
                 <li>Select your DVD</li>
@@ -91,17 +91,17 @@
                 <img src="images/audio/rip/chapter.jpg">
                 <li>Press Start</li>
                 <li>Your video will be created on the desktop</li>
-            </ol></p>
-            <p><h3>D. Converting (Skip if your video is .mp4)</h3>
+            </ol>
+            <h3>D. Converting (Skip if your video is .mp4)</h3>
             <ol>
-                <li>Open Encoder</li>
+                <li>Open Encoder - <mark class="redbold">only in the video labs</mark></li>
                 <li>Drag and drop your video into the Queue Pane</li>
                 <li>Click the yellow link below “Preset” in the Queue Pane</li>
                 <li>Change the format to H.264</li>
                 <li>Click OK</li>
                 <li>Click the play button</li>
-            </ol></p>
-            <p><h3>E. Import your video into Pro Tools</h3></p>
+            </ol>
+            <h3>E. Import your video into Pro Tools</h3>
         </article>
     </main>
 
@@ -125,7 +125,6 @@
     ga('create', 'UA-XXXXX-X');
     ga('send', 'pageview');
     </script>
-    <!-- Built with love using Web Starter Kit -->
 </body>
 
 </html>
