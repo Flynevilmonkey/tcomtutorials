@@ -234,10 +234,18 @@ main {
     float: right;
     font-size: 20px;
     margin-top: 40px;
-    color: #CC0000;
+    color: #616161;
     text-decoration: none;
 }
 .downloadbutton:hover {
+    text-shadow: 0 0 3px 5px #9e9e9e;
+    color:#000;
+}
+.userguide {
+    color: #616161;
+    text-decoration: none;
+}
+.userguide:hover {
     text-shadow: 0 0 3px 5px #9e9e9e;
     color:#000;
 }
